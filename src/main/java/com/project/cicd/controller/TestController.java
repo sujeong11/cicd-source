@@ -12,6 +12,6 @@ public class TestController {
 
   @GetMapping("/test")
   public String test() {
-    return "CI/CD:v1";
+    return "CI/CD:v2";
   }
 }
